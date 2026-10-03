@@ -50,6 +50,8 @@ npm run dev
 
 当前小黑盒平台声明为 Android；iOS、OHOS 及桌面客户端完成真机验收后再发布支持。网页版保留桌面及手机布局。
 
+1.0.2 已上传并提交小黑盒审核，当前为审核中，尚未正式上线。进度与源码对应关系见 [发布记录](docs/verification/2026-10-03-publish.md)。
+
 详见 [应用使用说明](app/README.md)、[发布说明](docs/releases/1.0.2.md) 和 [第三方来源与许可证](app/THIRD_PARTY_NOTICES.md)。
 
 ## 作者与反馈
