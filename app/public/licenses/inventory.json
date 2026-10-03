@@ -5,13 +5,15 @@
     "license": "ISC",
     "upstreamNoticeFiles": [
       "THIRD_PARTY_NOTICES.md"
-    ]
+    ],
+    "distributionDirectory": "licenses/hb-sdk"
   },
   {
     "name": "@heybox/hb-sdk-protocol",
     "version": "0.8.4",
     "license": "ISC",
-    "upstreamNoticeFiles": []
+    "upstreamNoticeFiles": [],
+    "distributionDirectory": "licenses/hb-protocol"
   },
   {
     "name": "@msgpack/msgpack",
@@ -24,7 +26,8 @@
     "homepage": "https://msgpack.org/",
     "upstreamNoticeFiles": [
       "LICENSE"
-    ]
+    ],
+    "distributionDirectory": "licenses/msgpack"
   },
   {
     "name": "pdf-lib",
@@ -34,7 +37,8 @@
     "homepage": "https://pdf-lib.js.org",
     "upstreamNoticeFiles": [
       "LICENSE.md"
-    ]
+    ],
+    "distributionDirectory": "licenses/pdf-lib"
   },
   {
     "name": "@pdf-lib/standard-fonts",
@@ -44,7 +48,8 @@
     "homepage": "https://github.com/Hopding/standard-fonts",
     "upstreamNoticeFiles": [
       "LICENSE.md"
-    ]
+    ],
+    "distributionDirectory": "licenses/pdf-fonts"
   },
   {
     "name": "@pdf-lib/upng",
@@ -56,7 +61,8 @@
     },
     "upstreamNoticeFiles": [
       "LICENSE"
-    ]
+    ],
+    "distributionDirectory": "licenses/upng"
   },
   {
     "name": "pako",
@@ -66,7 +72,8 @@
     "homepage": "https://github.com/nodeca/pako",
     "upstreamNoticeFiles": [
       "LICENSE"
-    ]
+    ],
+    "distributionDirectory": "licenses/pako"
   },
   {
     "name": "tslib",
@@ -79,7 +86,8 @@
     "homepage": "https://www.typescriptlang.org/",
     "upstreamNoticeFiles": [
       "LICENSE.txt"
-    ]
+    ],
+    "distributionDirectory": "licenses/tslib"
   },
   {
     "name": "@pdf-lib/fontkit",
@@ -90,6 +98,7 @@
       "url": "git://github.com/Hopding/fontkit.git"
     },
     "homepage": "https://github.com/Hopding/fontkit",
-    "upstreamNoticeFiles": []
+    "upstreamNoticeFiles": [],
+    "distributionDirectory": "licenses/fontkit"
   }
 ]

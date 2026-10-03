@@ -1,6 +1,6 @@
 {
   "name": "pindou-workbench",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "导入图片，生成 MARD 拼豆设计图、色号用量清单与 PDF。",
   "author": "彧晟Eason",
   "repository": {
@@ -9,7 +9,9 @@
     "directory": "app"
   },
   "homepage": "https://github.com/Eason4869/pindou-workbench",
-  "bugs": { "url": "https://github.com/Eason4869/pindou-workbench/issues" },
+  "bugs": {
+    "url": "https://github.com/Eason4869/pindou-workbench/issues"
+  },
   "private": true,
   "type": "module",
   "heybox": {

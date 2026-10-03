@@ -6,5 +6,6 @@
   "homepage": "https://pdf-lib.js.org",
   "upstreamNoticeFiles": [
     "LICENSE.md"
-  ]
+  ],
+  "distributionDirectory": "licenses/pdf-lib"
 }

@@ -9,5 +9,6 @@
   "homepage": "https://msgpack.org/",
   "upstreamNoticeFiles": [
     "LICENSE"
-  ]
+  ],
+  "distributionDirectory": "licenses/msgpack"
 }

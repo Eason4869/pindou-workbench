@@ -4,5 +4,6 @@
   "license": "ISC",
   "upstreamNoticeFiles": [
     "THIRD_PARTY_NOTICES.md"
-  ]
+  ],
+  "distributionDirectory": "licenses/hb-sdk"
 }

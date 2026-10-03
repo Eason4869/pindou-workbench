@@ -6,5 +6,6 @@
   "homepage": "https://github.com/Hopding/standard-fonts",
   "upstreamNoticeFiles": [
     "LICENSE.md"
-  ]
+  ],
+  "distributionDirectory": "licenses/pdf-fonts"
 }

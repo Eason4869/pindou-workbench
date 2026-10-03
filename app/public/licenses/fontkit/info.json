@@ -7,5 +7,6 @@
     "url": "git://github.com/Hopding/fontkit.git"
   },
   "homepage": "https://github.com/Hopding/fontkit",
-  "upstreamNoticeFiles": []
+  "upstreamNoticeFiles": [],
+  "distributionDirectory": "licenses/fontkit"
 }

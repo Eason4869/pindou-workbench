@@ -8,5 +8,6 @@
   },
   "upstreamNoticeFiles": [
     "LICENSE"
-  ]
+  ],
+  "distributionDirectory": "licenses/upng"
 }

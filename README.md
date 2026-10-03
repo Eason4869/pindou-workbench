@@ -2,7 +2,7 @@
 
 ![拼豆工作台封面](app/assets/cover.png)
 
-把喜欢的画面，一颗颗拼出来。作者：**彧晟Eason**。当前版本 **1.0.1**。
+把喜欢的画面，一颗颗拼出来。作者：**彧晟Eason**。当前版本 **1.0.2**。
 
 将像素图片或普通照片转换为 MARD 拼豆设计图，生成网格、色号和每色实际用量，导出可打印的 PDF、PNG 和 CSV。支持独立网页与小黑盒工坊小程序；图片在设备本地处理。
 
@@ -50,7 +50,7 @@ npm run dev
 
 当前小黑盒平台声明为 Android；iOS、OHOS 及桌面客户端完成真机验收后再发布支持。网页版保留桌面及手机布局。
 
-详见 [应用使用说明](app/README.md)、[发布说明](docs/releases/1.0.1.md) 和 [第三方来源与许可证](app/THIRD_PARTY_NOTICES.md)。
+详见 [应用使用说明](app/README.md)、[发布说明](docs/releases/1.0.2.md) 和 [第三方来源与许可证](app/THIRD_PARTY_NOTICES.md)。
 
 ## 作者与反馈
 

@@ -9,5 +9,6 @@
   "homepage": "https://www.typescriptlang.org/",
   "upstreamNoticeFiles": [
     "LICENSE.txt"
-  ]
+  ],
+  "distributionDirectory": "licenses/tslib"
 }

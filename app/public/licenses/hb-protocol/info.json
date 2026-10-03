@@ -2,5 +2,6 @@
   "name": "@heybox/hb-sdk-protocol",
   "version": "0.8.4",
   "license": "ISC",
-  "upstreamNoticeFiles": []
+  "upstreamNoticeFiles": [],
+  "distributionDirectory": "licenses/hb-protocol"
 }
