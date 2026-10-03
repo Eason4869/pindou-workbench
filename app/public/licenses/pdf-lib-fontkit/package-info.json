@@ -1,0 +1,11 @@
+{
+  "name": "@pdf-lib/fontkit",
+  "version": "1.1.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Hopding/fontkit.git"
+  },
+  "homepage": "https://github.com/Hopding/fontkit",
+  "upstreamNoticeFiles": []
+}

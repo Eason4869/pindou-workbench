@@ -1,0 +1,12 @@
+{
+  "name": "@pdf-lib/upng",
+  "version": "1.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hopding/upng"
+  },
+  "upstreamNoticeFiles": [
+    "LICENSE"
+  ]
+}

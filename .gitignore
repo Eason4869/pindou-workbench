@@ -1,0 +1,14 @@
+app/node_modules/
+app/dist/
+app/dist-web/
+app/test-results/
+app/playwright-report/
+/tmp/
+/releases/
+/output/
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
+Thumbs.db

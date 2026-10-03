@@ -1,0 +1,10 @@
+{
+  "name": "pako",
+  "version": "1.0.11",
+  "license": "(MIT AND Zlib)",
+  "repository": "nodeca/pako",
+  "homepage": "https://github.com/nodeca/pako",
+  "upstreamNoticeFiles": [
+    "LICENSE"
+  ]
+}

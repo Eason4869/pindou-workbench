@@ -1,0 +1,60 @@
+{
+  "name": "pindou-workbench",
+  "version": "1.0.1",
+  "description": "导入图片，生成 MARD 拼豆设计图、色号用量清单与 PDF。",
+  "author": "彧晟Eason",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eason4869/pindou-workbench.git",
+    "directory": "app"
+  },
+  "homepage": "https://github.com/Eason4869/pindou-workbench",
+  "bugs": { "url": "https://github.com/Eason4869/pindou-workbench/issues" },
+  "private": true,
+  "type": "module",
+  "heybox": {
+    "miniProgramId": "01a0fce3-9252-771f-8727-c99af7ae727b",
+    "name": "拼豆工作台",
+    "category": "tool",
+    "icon": "assets/icon.png",
+    "coverImages": [
+      "assets/cover.png"
+    ],
+    "platforms": [
+      "android"
+    ],
+    "permissions": {
+      "filesystem": {
+        "enabled": true
+      }
+    }
+  },
+  "scripts": {
+    "hb-sdk": "hb-sdk",
+    "dev": "hb-sdk dev",
+    "prebuild": "node scripts/sync-notices.mjs",
+    "build": "hb-sdk build",
+    "deploy": "hb-sdk remote deploy",
+    "dev:web": "vite --config vite.web.config.js --host 127.0.0.1",
+    "prebuild:web": "node scripts/sync-notices.mjs",
+    "build:web": "vite build --config vite.web.config.js --outDir dist-web",
+    "verify:production": "node scripts/verify-production.mjs",
+    "brand:assets": "node scripts/branding.mjs",
+    "test": "node --test tests/*.test.js",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@heybox/hb-sdk": "0.8.4",
+    "pdf-lib": "1.17.1",
+    "@pdf-lib/fontkit": "1.1.1"
+  },
+  "overrides": {
+    "@heybox/hb-sdk": {
+      "sharp": "0.35.4"
+    }
+  },
+  "devDependencies": {
+    "vite": "^8.0.12",
+    "@playwright/test": "1.63.0"
+  }
+}

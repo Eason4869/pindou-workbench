@@ -1,0 +1,7 @@
+* text=auto
+* whitespace=cr-at-eol
+*.png binary
+*.ttf binary
+*.deflate binary
+# Preserve the exact installed SDK skill bytes and its integrity metadata.
+app/.agents/skills/hb-sdk/* -text

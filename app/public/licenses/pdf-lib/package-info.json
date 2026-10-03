@@ -1,0 +1,10 @@
+{
+  "name": "pdf-lib",
+  "version": "1.17.1",
+  "license": "MIT",
+  "repository": "git+https://github.com/Hopding/pdf-lib.git",
+  "homepage": "https://pdf-lib.js.org",
+  "upstreamNoticeFiles": [
+    "LICENSE.md"
+  ]
+}

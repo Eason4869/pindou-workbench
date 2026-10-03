@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "hb-sdk": {
+      "source": "./node_modules/@heybox/hb-sdk/skill",
+      "sourceType": "local",
+      "computedHash": "5a32b3b5e1b68e38eb2c04887398d69088f6565cd4d119390b0c85fffcee8aca"
+    }
+  }
+}

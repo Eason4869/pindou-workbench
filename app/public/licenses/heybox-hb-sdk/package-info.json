@@ -1,0 +1,8 @@
+{
+  "name": "@heybox/hb-sdk",
+  "version": "0.8.4",
+  "license": "ISC",
+  "upstreamNoticeFiles": [
+    "THIRD_PARTY_NOTICES.md"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "tslib",
+  "version": "1.14.1",
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Microsoft/tslib.git"
+  },
+  "homepage": "https://www.typescriptlang.org/",
+  "upstreamNoticeFiles": [
+    "LICENSE.txt"
+  ]
+}

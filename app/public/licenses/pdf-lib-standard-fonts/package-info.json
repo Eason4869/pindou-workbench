@@ -1,0 +1,10 @@
+{
+  "name": "@pdf-lib/standard-fonts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/Hopding/standard-fonts.git",
+  "homepage": "https://github.com/Hopding/standard-fonts",
+  "upstreamNoticeFiles": [
+    "LICENSE.md"
+  ]
+}
