@@ -67,7 +67,7 @@ def main():
         distributions = {}
         for kind, source in [("web", app / "dist-web"), ("heybox", app / "dist")]:
             assert (source / "index.html").is_file()
-            assert (source / "THIRD_PARTY_NOTICES.md").is_file()
+            assert (source / "THIRD_PARTY_NOTICES.txt").is_file()
             assert (source / "licenses/NotoSansSC-OFL.txt").is_file()
             assert (source / "licenses/MARD-MIT.txt").is_file()
             target = stage / kind

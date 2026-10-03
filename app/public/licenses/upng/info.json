@@ -9,5 +9,8 @@
   "upstreamNoticeFiles": [
     "LICENSE"
   ],
-  "distributionDirectory": "licenses/upng"
+  "distributionDirectory": "licenses/upng",
+  "distributedNoticeFiles": {
+    "LICENSE": "LICENSE.txt"
+  }
 }

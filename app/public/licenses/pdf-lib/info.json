@@ -7,5 +7,8 @@
   "upstreamNoticeFiles": [
     "LICENSE.md"
   ],
-  "distributionDirectory": "licenses/pdf-lib"
+  "distributionDirectory": "licenses/pdf-lib",
+  "distributedNoticeFiles": {
+    "LICENSE.md": "LICENSE.txt"
+  }
 }

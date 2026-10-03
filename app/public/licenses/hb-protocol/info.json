@@ -3,5 +3,6 @@
   "version": "0.8.4",
   "license": "ISC",
   "upstreamNoticeFiles": [],
-  "distributionDirectory": "licenses/hb-protocol"
+  "distributionDirectory": "licenses/hb-protocol",
+  "distributedNoticeFiles": {}
 }

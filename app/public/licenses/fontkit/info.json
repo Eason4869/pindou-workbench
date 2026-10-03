@@ -8,5 +8,6 @@
   },
   "homepage": "https://github.com/Hopding/fontkit",
   "upstreamNoticeFiles": [],
-  "distributionDirectory": "licenses/fontkit"
+  "distributionDirectory": "licenses/fontkit",
+  "distributedNoticeFiles": {}
 }

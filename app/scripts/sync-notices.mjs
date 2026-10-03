@@ -11,7 +11,9 @@ if (await realpath(licenses) !== resolve(await realpath(app), "public", "license
 }
 await rm(licenses, { recursive: true });
 await mkdir(licenses, { recursive: true });
-await copyFile(resolve(app, "THIRD_PARTY_NOTICES.md"), resolve(publicDir, "THIRD_PARTY_NOTICES.md"));
+// Keep source documentation as Markdown, ship static notice attachments as text.
+await rm(resolve(publicDir, "THIRD_PARTY_NOTICES.md"), { force: true });
+await copyFile(resolve(app, "THIRD_PARTY_NOTICES.md"), resolve(publicDir, "THIRD_PARTY_NOTICES.txt"));
 await copyFile(resolve(app, "assets/fonts/OFL.txt"), resolve(licenses, "NotoSansSC-OFL.txt"));
 await copyFile(resolve(app, "src/data/MARD-LICENSE.txt"), resolve(licenses, "MARD-MIT.txt"));
 
@@ -30,10 +32,15 @@ for (const name of ["@heybox/hb-sdk", "@heybox/hb-sdk-protocol", "@msgpack/msgpa
   const files = (await readdir(directory)).filter((f) => /^(license|copying|copyright|notice|third_party_notices)(\.|$)/i.test(f));
   const target = resolve(licenses, directories[name]);
   await mkdir(target, { recursive: true });
-  for (const file of files) await copyFile(resolve(directory, file), resolve(target, file));
+  const distributedNoticeFiles = {};
+  for (const file of files) {
+    const distributed = file.replace(/\.(md|txt)$/i, "") + ".txt";
+    await copyFile(resolve(directory, file), resolve(target, distributed));
+    distributedNoticeFiles[file] = distributed;
+  }
   const metadata = { name: pkg.name, version: pkg.version, license: pkg.license,
     repository: pkg.repository, homepage: pkg.homepage, upstreamNoticeFiles: files,
-    distributionDirectory: `licenses/${directories[name]}` };
+    distributionDirectory: `licenses/${directories[name]}`, distributedNoticeFiles };
   await writeFile(resolve(target, "info.json"), JSON.stringify(metadata, null, 2) + "\n");
   inventory.push(metadata);
 }

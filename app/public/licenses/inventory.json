@@ -6,14 +6,18 @@
     "upstreamNoticeFiles": [
       "THIRD_PARTY_NOTICES.md"
     ],
-    "distributionDirectory": "licenses/hb-sdk"
+    "distributionDirectory": "licenses/hb-sdk",
+    "distributedNoticeFiles": {
+      "THIRD_PARTY_NOTICES.md": "THIRD_PARTY_NOTICES.txt"
+    }
   },
   {
     "name": "@heybox/hb-sdk-protocol",
     "version": "0.8.4",
     "license": "ISC",
     "upstreamNoticeFiles": [],
-    "distributionDirectory": "licenses/hb-protocol"
+    "distributionDirectory": "licenses/hb-protocol",
+    "distributedNoticeFiles": {}
   },
   {
     "name": "@msgpack/msgpack",
@@ -27,7 +31,10 @@
     "upstreamNoticeFiles": [
       "LICENSE"
     ],
-    "distributionDirectory": "licenses/msgpack"
+    "distributionDirectory": "licenses/msgpack",
+    "distributedNoticeFiles": {
+      "LICENSE": "LICENSE.txt"
+    }
   },
   {
     "name": "pdf-lib",
@@ -38,7 +45,10 @@
     "upstreamNoticeFiles": [
       "LICENSE.md"
     ],
-    "distributionDirectory": "licenses/pdf-lib"
+    "distributionDirectory": "licenses/pdf-lib",
+    "distributedNoticeFiles": {
+      "LICENSE.md": "LICENSE.txt"
+    }
   },
   {
     "name": "@pdf-lib/standard-fonts",
@@ -49,7 +59,10 @@
     "upstreamNoticeFiles": [
       "LICENSE.md"
     ],
-    "distributionDirectory": "licenses/pdf-fonts"
+    "distributionDirectory": "licenses/pdf-fonts",
+    "distributedNoticeFiles": {
+      "LICENSE.md": "LICENSE.txt"
+    }
   },
   {
     "name": "@pdf-lib/upng",
@@ -62,7 +75,10 @@
     "upstreamNoticeFiles": [
       "LICENSE"
     ],
-    "distributionDirectory": "licenses/upng"
+    "distributionDirectory": "licenses/upng",
+    "distributedNoticeFiles": {
+      "LICENSE": "LICENSE.txt"
+    }
   },
   {
     "name": "pako",
@@ -73,7 +89,10 @@
     "upstreamNoticeFiles": [
       "LICENSE"
     ],
-    "distributionDirectory": "licenses/pako"
+    "distributionDirectory": "licenses/pako",
+    "distributedNoticeFiles": {
+      "LICENSE": "LICENSE.txt"
+    }
   },
   {
     "name": "tslib",
@@ -87,7 +106,10 @@
     "upstreamNoticeFiles": [
       "LICENSE.txt"
     ],
-    "distributionDirectory": "licenses/tslib"
+    "distributionDirectory": "licenses/tslib",
+    "distributedNoticeFiles": {
+      "LICENSE.txt": "LICENSE.txt"
+    }
   },
   {
     "name": "@pdf-lib/fontkit",
@@ -99,6 +121,7 @@
     },
     "homepage": "https://github.com/Hopding/fontkit",
     "upstreamNoticeFiles": [],
-    "distributionDirectory": "licenses/fontkit"
+    "distributionDirectory": "licenses/fontkit",
+    "distributedNoticeFiles": {}
   }
 ]

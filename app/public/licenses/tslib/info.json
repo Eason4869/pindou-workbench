@@ -10,5 +10,8 @@
   "upstreamNoticeFiles": [
     "LICENSE.txt"
   ],
-  "distributionDirectory": "licenses/tslib"
+  "distributionDirectory": "licenses/tslib",
+  "distributedNoticeFiles": {
+    "LICENSE.txt": "LICENSE.txt"
+  }
 }

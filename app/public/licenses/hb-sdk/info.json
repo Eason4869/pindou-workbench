@@ -5,5 +5,8 @@
   "upstreamNoticeFiles": [
     "THIRD_PARTY_NOTICES.md"
   ],
-  "distributionDirectory": "licenses/hb-sdk"
+  "distributionDirectory": "licenses/hb-sdk",
+  "distributedNoticeFiles": {
+    "THIRD_PARTY_NOTICES.md": "THIRD_PARTY_NOTICES.txt"
+  }
 }

@@ -10,5 +10,8 @@
   "upstreamNoticeFiles": [
     "LICENSE"
   ],
-  "distributionDirectory": "licenses/msgpack"
+  "distributionDirectory": "licenses/msgpack",
+  "distributedNoticeFiles": {
+    "LICENSE": "LICENSE.txt"
+  }
 }
